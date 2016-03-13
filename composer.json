@@ -1,0 +1,15 @@
+{
+    "name": "agallou/twig-hashed-file-extension",
+    "description": "Include file containing content hash in twig templates",
+    "keywords": ["twig", "assets", "hash"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4":{
+            "Agallou\\TwigHashedFileExtension\\": "src"
+        }
+    },
+    "require": {
+        "symfony/finder": "*",
+        "twig/twig": "*"
+    }
+}
